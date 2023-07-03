@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "BPG Arial";
+    src: url(./assets/font/bpg_arial_2009.ttf) format("opentype");
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 101px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.start-btn{
+    font-Weight: 700;
+    font-Size: 30px;
+    Line-height: 36px;
+    text-decoration: none;
+    color: var(--darkText);
+    text-align: center;
+}
+
+.start-btn:hover{
+    font-weight: 900;
+    font-size: 40px;
+}
